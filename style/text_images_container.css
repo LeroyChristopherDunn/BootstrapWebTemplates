@@ -1,0 +1,9 @@
+#text_images_container #gallery{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#text_images_container #gallery div{
+    padding: 10px;
+}
+

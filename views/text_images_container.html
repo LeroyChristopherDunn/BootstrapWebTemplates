@@ -1,0 +1,26 @@
+<div id="text_images_container" class="container" ng-controller="textImagesContainerController">
+
+    <div id="desc" class="col-sm-3 text-xs-center">
+
+        <h2>Heading</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Placerat duis ultricies lacus sed turpis.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Placerat duis ultricies lacus sed turpis.
+        </p>
+    </div>
+
+    <div id="gallery" class="col-sm-9">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="image in images">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="{{image.url}}" alt="">
+            </a>
+        </div>
+    </div>
+
+</div>
