@@ -1,0 +1,12 @@
+<div id="text_image_container" class="container-fluid" ng-controller="textImageContainerController">
+
+    <div id="desc" class="col-sm-12 text-center">
+        <h2 class="text-center-sm">{{heading}}</h2>
+        <p ng-repeat="paragrah in paragraphs">{{paragrah.text}}</p>
+    </div>
+
+    <div id="gallery" class="col-sm-12">
+        <img class="max-width img-responsive" src="{{imageUrl}}" alt=""></img>
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+#text_image_container{
+    background-color: #ebe8e8;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.max-width{
+    width: 100%;
+    height: auto;
+}
+
