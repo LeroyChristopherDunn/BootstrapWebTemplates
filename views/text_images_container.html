@@ -1,18 +1,8 @@
 <div id="text_images_container" class="container" ng-controller="textImagesContainerController">
 
     <div id="desc" class="col-sm-3">
-
-        <h2 class="text-center-sm">Heading</h2>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Placerat duis ultricies lacus sed turpis.
-        </p>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Placerat duis ultricies lacus sed turpis.
-        </p>
+        <h2 class="text-center-sm">{{heading}}</h2>
+        <p ng-repeat="paragrah in paragraphs">{{paragrah.text}}</p>
     </div>
 
     <div id="gallery" class="col-sm-9">
@@ -22,9 +12,5 @@
             </a>
         </div>
     </div>
-
-    <p>
-        {{windowWidth}}
-    </p>
 
 </div>
